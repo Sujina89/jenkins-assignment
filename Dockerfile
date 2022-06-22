@@ -1,2 +1,2 @@
-FROM hshar/webapp
-ADD ./devopsIQ /var/www/html/devopsIQ
+FROM nginx
+COPY ./usr/share/nginx/html
